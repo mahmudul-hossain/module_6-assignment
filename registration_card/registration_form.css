@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+body{
+    background: linear-gradient(90deg, rgba(105,116,220,1) 0%, rgba(115,81,170,1) 100%);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.form_card{
+    width: 800px;
+    height: 460px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.form_card h1{
+        font-size: 36px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        margin-bottom: 50px;
+}
+
+.input-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-field{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+.input-field label {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    line-height: 40px;
+    padding-right: 20px;
+}
+
+.input-field input {
+    padding: 10px 40px 10px 10px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 5px;
+}
+
+.input-field input::placeholder {
+    font-size: 12px;
+}
+
+.gender-radio .gender{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-right: 35px;
+}
+
+.gender-radio label{
+    font-size: 14px;
+    color: black;
+    padding-right: 20px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button .cancel, .submit{
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 25px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.button .cancel{
+    background-color: #f35e57;
+}
+
+.button .submit{
+    background: linear-gradient(45deg, rgba(105,116,220,1) 0%, rgba(115,81,170,1) 100%)
+}
